@@ -1,0 +1,138 @@
+html {
+   margin: 0;
+   padding: 0;
+}
+body {
+   background: url(images/1920x1080.gif) no-repeat center/cover;
+   color: white;
+   margin: 0;
+   padding: 0;
+   font-family:'Press Start 2P';
+}
+p {
+   margin: 0 0 10px 0;
+}
+
+p:hover{
+   transform:translateY(-20px);
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+   color: #d5e25c;
+   margin: 0 0 10px 0;
+   font-size: 2rem;
+}
+a:link {
+   text-decoration: none;
+   color: chartreuse;
+}
+a:visited {
+   text-decoration: none;
+   color: chartreuse;
+}
+a:hover,
+a:focus,
+a:active {
+   text-decoration: underline;
+   color: rgb(106, 209, 3);
+}
+abbr {
+   border-bottom: none;
+   color: rgb(197, 103, 103);
+}
+
+/* specific divs */
+.page-wrapper {
+   position: relative;
+}
+
+.intro {
+   position: relative;
+   padding: 0 150px 0 300px;
+}
+
+header h1 {
+   font-size: 2rem;
+   text-shadow: black 0.1em 0.1em 0.2em
+}
+header h2 {
+   position: relative;
+   left: 1.5%;
+   font-size: 1.5rem;
+   text-shadow: black 0.1em 0.1em 0.2em
+}
+header {
+}
+
+.summary {
+   position:fixed;
+   width: 250px;
+   left: 0;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+.summary p {
+}
+
+.preamble {
+}
+.supporting {
+   padding: 0 150px 0 300px;
+}
+
+footer {
+   font-size: 2rem;
+   text-align: center;
+   line-height: 150px;
+   display: flex;
+   justify-content: space-around;
+}
+
+footer a {
+   display: inline-block;
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   border: 3px solid rgb(255, 0, 0);
+   margin: 10px;
+}
+
+footer a:link,
+footer a:visited {
+   color: #f1c77a;
+}
+
+.sidebar {
+   background-color: rgba(255, 255, 255, 0.3);
+}
+.sidebar .wrapper {
+   text-align: center;
+}
+.sidebar h3.select {
+   font-size: 2rem;
+}
+.sidebar h3.archives {
+   font-size: 2rem;
+}
+.sidebar h3.resources {
+   font-size: 2rem;
+}
+
+.wrapper{
+   display: flex;
+   justify-content: space-around;
+}
+.sidebar ul {
+   display: block;
+   padding: 0;
+}
+.sidebar li {
+   display: block;
+}
+.sidebar li a:link {
+}
+.sidebar li a:visited {
+}
+
+.extra1 {
+}
